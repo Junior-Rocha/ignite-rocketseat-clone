@@ -1,0 +1,41 @@
+:root {
+  --white: #fff;
+  --black-100: #e1e1e6;
+  --black-300: #C4C4CC;
+  --black-600: #29292E;
+  --black-700: #202024;
+  --black-800 :#121214;
+  --black-900: #09090a;
+
+  --text-100: #737380;
+
+  --colors-ignite-low: #00291D;
+}
+
+
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--black-800); 
+  scroll-behavior: auto;
+  
+}
+
+body::-webkit-scrollbar {
+  width: 0.375rem;
+          
+  background-color: #3d3c42;  
+  border-radius: 3px;       
+  border: none; 
+}
+
+body, input, textarea, button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+

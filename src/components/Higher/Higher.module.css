@@ -1,0 +1,51 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.250rem;
+  margin-bottom: 3rem;
+  background-color: transparent;
+  background: var(--black-700);
+   border-radius: 5px;
+}
+
+
+
+.wrapper:hover {
+  box-shadow: #00b37e 0px 0px 0px 2px inset; 
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo  h2 {
+  color: #E1E1E6;
+  font-size: 1.5rem;
+  line-height: 125%;
+  margin: 0px;
+}
+
+.higherTitle {
+  color: #c4c4cc;
+  font-size: 1rem;
+  margin-top: 0.75rem;
+ 
+  padding: 0.9rem;
+  padding-left: 2rem;
+  line-height: 160%;
+  border-left: 0.1rem solid #323238;
+
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.875rem;
+}
+
+

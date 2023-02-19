@@ -1,0 +1,103 @@
+.header {
+  height: 6.4rem;
+  width: 100%;
+  border-bottom: 1px solid var(--black-600);
+ 
+}
+
+ article {
+  max-width: 70rem;
+  margin: 2rem auto;
+  padding-top: 0.2rem;
+ 
+  
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.header span {
+  color: #C4C4CC;
+  margin-top: 0px;
+  margin-left: 2rem;
+  padding-left: 2rem;
+  border-left: 0.06rem solid #29292E;
+  font-size: 1rem;
+  line-height: 160%;
+}
+
+
+.button a {
+  background: var(--black-600);
+  color: var(--black-100);
+  border: 0;
+  border-radius: 5px;
+  height: 3rem;
+  padding: 0px 2rem;
+  font-weight: bold;
+  text-decoration: none;
+
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.8rem;
+}
+
+
+/* 
+background: linear-gradient(90deg, var(--colors-shape-primary) 0%, var(--colors-ignite-low) 100%);
+*/
+/* 
+
+    --colors-rocketseat-light: #996DFF;
+    --colors-rocketseat-mid: #8257E5;
+    --colors-rocketseat-dark: #633BBC;
+    --colors-rocketseat-low: #271A45;
+    --colors-discover-light: #6A80FF;
+    --colors-discover-mid: #4863F7;
+    --colors-discover-dark: #3249CB;
+    --colors-discover-low: #182049;
+    --colors-ignite-light: #00B37E;
+    --colors-ignite-mid: #00875F;
+    --colors-ignite-dark: #015F43;
+    --colors-ignite-low: #00291D;
+    --colors-ec-light: #FC4737;
+    --colors-ec-mid: #D73628;
+    --colors-ec-dark: #AD1E12;
+    --colors-ec-low: #42110D;
+    --colors-success-light: #04D361;
+    --colors-success-base: #1B873F;
+    --colors-success-low: #051B0D;
+    --colors-danger-light: #F75A68;
+    --colors-danger-base: #CC2937;
+    --colors-danger-low: #2D090C;
+    --colors-warning-light: #FBA94C;
+    --colors-warning-base: #EB8A1D;
+    --colors-warning-low: #2E1B06;
+    --colors-new-light: #1EF7D0;
+    --colors-new-base: #07847E;
+    --colors-new-low: #163840;
+    --colors-white: #FFFFFF;
+    --colors-black: #000000;
+    --colors-grey-100: #E1E1E6;
+    --colors-grey-200: #C4C4CC;
+    --colors-grey-300: #8D8D99;
+    --colors-grey-400: #7C7C8A;
+    --colors-grey-500: #505059;
+    --colors-grey-600: #323238;
+    --colors-grey-700: #29292E;
+    --colors-grey-800: #202024;
+    --colors-grey-900: #121214;
+    --colors-grey-950: #09090A;
+    --colors-text-title: #E1E1E6;
+    --colors-text-base: #C4C4CC;
+*/

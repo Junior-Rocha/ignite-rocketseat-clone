@@ -1,0 +1,62 @@
+.header {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--black-700);
+  padding: 0px 30px;
+  height: 4.5rem;
+  box-shadow: unset;
+  border-bottom: 1px solid var(--black-800);
+  
+
+}
+
+.logo {
+  line-height: 1;
+  width: 12rem;
+  height: 2.3rem;
+}
+ 
+.menu {
+  display: flex;
+  gap: 1.875rem;
+}
+.menu a{
+  font-size: 1rem;
+  line-height: 1;
+  color: var(--text-100);
+}
+.menu a:hover {
+  color: #e1e1e6;
+  font-weight: bold;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  line-height: 0;
+}
+
+.profile button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.875rem;
+  height: 2.875rem;
+  background: transparent;
+  border: none;
+  border-radius: 5px;
+}
+button:hover {
+  background: #141316;
+}
+
+.avatar {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 4px solid #202024;
+    outline: 3px solid #00875f;
+}

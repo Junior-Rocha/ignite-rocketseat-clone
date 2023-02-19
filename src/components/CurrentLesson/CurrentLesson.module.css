@@ -1,0 +1,55 @@
+.lesson {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.950rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background: linear-gradient(90deg,#202024 0%, #00291D 100%);
+
+   border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.lesson:hover {
+  box-shadow: #00b37e 0px 0px 0px 2px inset; 
+}
+
+.lessonName {
+  display: flex;
+  flex-direction: column;
+}
+
+.lessonName  h3 {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  line-height: 125%;
+  margin: 0px;
+}
+
+.lessonName span {
+  color: #c4c4cc;
+  font-size: 0.875rem;
+  margin-top: 0.75rem;
+  line-height: 160%;
+ 
+}
+
+.playLesson {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.875rem;
+}
+
+.playLesson span {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 160%;
+  
+}

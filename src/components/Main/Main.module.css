@@ -1,0 +1,22 @@
+.wrapperContainer {
+  max-width: 70rem;
+  margin: 2rem auto;
+}
+
+.wrapperTrilhas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .wrapperContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapperTrilhas {
+    grid-template-columns: 1fr;
+  }
+}
